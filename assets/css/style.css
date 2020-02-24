@@ -1,12 +1,27 @@
 body{
-    display: flex;
-    margin: 0 auto;
-    padding: 0;
+    background-image: url(../images/background.png);
 }
 
-#test{
-    flex-basis: 80%;
-    flex-direction: column;
-    text-align: center;
-    margin: .5vw 0;
+.container{
+
+}
+
+#titlebox{
+    
+}
+
+.currentTitle{
+
+}
+
+#attributebox{
+
+}
+
+.remaining, .correct{
+    
+}
+
+.timer{
+     
 }

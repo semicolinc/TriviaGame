@@ -8,7 +8,7 @@ $(document).ready( function(){
         
         ,{ "question": "Who invented the box that psychologists use to shock rats?", "ans_correct" : "B.F Skinner", "ans_wrong_1" : "Sigmund Freud", "ans_wrong_2" : "Ivan Pavlov", "ans_wrong_3" : "Ratsy"}
         
-        ,{ "question": "In radio, what does AM stand for?", "ans_correct" : "Amplitude Modulation", "ans_wrong_1" : "The opposite of PM", "ans_wrong_2" : "Amsterdam, or course!", "ans_wrong_3" : "Ampharos Megaevolution"}
+        ,{ "question": "In radio, what does AM stand for?", "ans_correct" : "Amplitude Modulation", "ans_wrong_1" : "The opposite of PM", "ans_wrong_2" : "Amsterdam, of course!", "ans_wrong_3" : "Ampharos Megaevolution"}
         
         ,{ "question": "Starfish belong to what animal phylum, whose name means spiny skin?", "ans_correct" : "Echinoderms", "ans_wrong_1" : "Phallusfish", "ans_wrong_2" : "Estrechitin", "ans_wrong_3" : "Asteroidea"}
         
@@ -71,8 +71,6 @@ $(document).ready( function(){
             questions.splice(randomInt, 1);
         }
     }
-
-    
 
     var questionList = [];
     createQList();
