@@ -1,27 +1,91 @@
 body{
+    display: flex;
     background-image: url(../images/background.png);
 }
 
+/* font-family: 'Righteous', ;
+font-family: 'Baloo', ;
+font-family: 'Bungee Inline', ; */
+
+#mainContainer{
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    flex-basis: 50%;
+    align-items: center;
+    flex-direction: column;
+    border: groove whitesmoke .2vw;
+    border-top: none;
+    border-bottom: none;
+    background-color: white;
+}
 .container{
-
+    display: flex;
+    width: 100%;
+    height: 5vw;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 3vh auto;
+}
+.small{
+    height: 1vw;
+}
+.large{
+    height: 25vw;
+    flex-direction: column;
 }
 
-#titlebox{
-    
+#currentTitle{
+    font-family: 'Bungee Inline';
+    font-size: 3vw;
+    width: inherit;
 }
 
-.currentTitle{
-
+#remaining, #correct{
+    font-family: 'Baloo';
+    flex-grow: 1;
+    font-size: 1vw;
+}
+.start{
+    font-family: 'Baloo';
+    flex-grow: .25;
+    font-size: 1vw;
 }
 
-#attributebox{
-
+#timer{
+    font-family: 'Baloo';
+    flex-grow: 3;
+    font-size: 1vw;
 }
 
-.remaining, .correct{
-    
+.start.able:hover{
+    border: green solid .05vw;
+    background-color: lightgreen; 
 }
 
-.timer{
-     
+.start.able, .answer{
+    cursor: pointer;
+}
+
+#question{
+    font-size: 1.5vw;
+    font-family: 'Righteous';
+    width: 80%;
+    text-align: left;
+    margin: .5vw;
+}
+
+.answer{
+    border: groove whitesmoke .2vw;
+    font-family: 'Righteous';
+    font-size: 1.5vw;
+    text-align: justify;
+    width: 75%;
+    height: 3vw;
+    margin: 0 0 1vw 0;
+}
+
+.answer:hover{
+    border:blue solid .2vw;
 }
